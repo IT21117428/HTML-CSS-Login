@@ -126,3 +126,19 @@
     width: 100%;
 }
 
+.login-button input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.login-button input:hover{
+    background-color: rgb(0, 55, 207);
+}
