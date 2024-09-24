@@ -44,6 +44,17 @@
     padding: 40px 20px;
 }
 
+.login-header h1{
+    font-family: sans-serif;
+}
+
+.login-header p{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #707070;
+}
+
 /* login input */
 
 .login-input{
@@ -75,3 +86,43 @@
 .login-input .login-input-content:last-child{
     margin-top: 20px;
 }
+
+/* login kf */
+
+.login-kf{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.login-kf-1{
+    width: calc(100% / 2);
+}
+
+.login-kf-1 label{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.login-kf-2{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: right;
+}
+
+.login-kf-2 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.login-kf-2 a:hover{
+    color: blue;
+}
+
+.login-button{
+    width: 100%;
+}
+
